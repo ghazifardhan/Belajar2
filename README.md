@@ -1,8 +1,8 @@
 # Belajar2
 
-http://31.220.58.88/dotsol/test.php = 1 array berhasil
+http://31.220.58.88/dotsol/test.php => 1 array berhasil
 
-http://31.220.58.88/dotsol/test.php?p=2 = 2 array gagal
+http://31.220.58.88/dotsol/test.php?p=2 => 2 array gagal
 
 **link json** http://31.220.58.88/dotsol/test.php
 
