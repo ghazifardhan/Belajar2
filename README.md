@@ -1,11 +1,14 @@
 # Belajar2
+
 http://31.220.58.88/dotsol/test.php = 1 array berhasil
+
 http://31.220.58.88/dotsol/test.php?p=2 = 2 array gagal
 
-link json http://31.220.58.88/dotsol/test.php
+**link json** http://31.220.58.88/dotsol/test.php
 
 script
-<?php
+
+```<?php
 
 if(isset($_GET['p']) && $_GET['p']==2)
 {
@@ -28,5 +31,4 @@ else
 		);
 }
 echo json_encode($a);
-?>
-
+?>```
