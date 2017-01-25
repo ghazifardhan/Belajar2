@@ -8,7 +8,8 @@ http://31.220.58.88/dotsol/test.php?p=2 = 2 array gagal
 
 script
 
-<pre><?php
+```
+<?php
 
 if(isset($_GET['p']) && $_GET['p']==2)
 {
@@ -31,4 +32,5 @@ else
 		);
 }
 echo json_encode($a);
-?></pre>
+?>
+```
