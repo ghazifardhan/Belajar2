@@ -11,27 +11,10 @@
     tools:context="org.simonita.simonita.MainActivity">
 
 
-    <LinearLayout
-        android:orientation="vertical"
+    <ListView
+        android:id="@+id/myList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        tools:ignore="UselessParent">
-
-        <TextView
-            android:text="Nama"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:id="@+id/txt_nama" />
-
-        <TextView
-            android:text="Kota"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:id="@+id/txt_kota" />
-
-    </LinearLayout>
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
